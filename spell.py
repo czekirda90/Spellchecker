@@ -20,9 +20,8 @@ class SpellChecker:
 		return True
 	
 if __name__ == '__main__':
-	unittest.main()
-spell_check = SpellChecker()
-words = spell_check.load_words('spell.word')
-print spell_check.check_word('zygotic')
-print spell_check.check_words('zygotic mistasdas elementary')
+	spell_check = SpellChecker()
+	words = spell_check.load_words('spell.word')
+	print spell_check.check_word('zygotic')
+	print spell_check.check_words('zygotic mistasdas elementary')
 
